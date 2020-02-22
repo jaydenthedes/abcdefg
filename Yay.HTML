@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="h.CSS">
+        
+        <title>Results</title>
+    </head>
+    <link rel="icon" href="img/food.png">
+    <style>
+    @font-face{
+   font-family: 'TJ';
+   src : url('GABRWFFR.TTF');
+       font-weight: normal;
+   
+       }
+       body{
+         background-color: wheat;
+        color: black;   font-family: 'TJ';font-weight: normal;
+       }
+        p{
+            font-size: 20px;font-weight: normal;font-family: 'TJ';
+            color:black;
+        }
+        a{
+            color:transparent;
+        }
+        h1{
+			color:black;	    font-weight: normal;
+		}
+        h2{
+            font-size: 40px;   color:black;
+            font-weight: normal;font-family: 'TJ';
+        }
+        </style>
+    <body>
+        
+                   
+            <div class="jumbotron">
+                    <div class="container">
+                     
+                     <div align= center>
+               
+                  <div class="jumbotron">
+                    <div class="container">
+                        <BR> 
+        
+                           <h2>You Won The Game!</h2>
+         
+<P> Congratulations!!! Play Again?
+             </p>
+           
+                
+             <audio id="audiotag1" src="select.wav" preload="auto"></audio>
+             <audio id="audiotag2" src="MKDD Exit.wav" preload="auto"></audio>
+        
+
+      
+            </p>
+            <a href="javascript:play_dat_sound();"><h1>Yes </h1> </a>
+            <a href="javascript:play_no_sound();"><h1> Nope.</h1> </a>
+   
+
+    
+      <audio autoplay  id="myaudio">
+                  <source src="Win (Captain Toad Treasure Tracker, Super Mario Maker).wav" >
+                </audio>
+ 
+              </audio>
+              <script>
+                  var audio = document.getElementById("myaudio");
+                  audio.volume = 0.9;
+                
+      
+                    function play_dat_sound() {
+                       var audio = document.getElementById("myaudio");
+                            audio.volume = 0.0;
+                      document.getElementById('audiotag1').play();
+                      setTimeout(function(){ window.location.replace("Choose Character.html");},  1000);
+                    }
+                    function play_no_sound() {
+                       var audio = document.getElementById("myaudio");
+                            audio.volume = 0.0;
+                      document.getElementById('audiotag2').play();
+                      setTimeout(function(){ window.location.replace("Home.html");}, 1000);
+                    }
+             
+                  </script>
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
