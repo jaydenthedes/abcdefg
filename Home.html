@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Custom Mario Bros</title>
+            <link href="K.css" rel="stylesheet" />
+    </head>
+
+    <body>
+      <style>
+        body{
+            background-color: wheat;
+            color:black;
+    text-align: center;font-family: 'TJ';
+        }
+       h3{
+        color: black;font-weight: normal;
+        font-size: 40px;   font-family: 'TJ';
+       }
+       a{
+         color: transparent;
+       }
+       h1{
+        color: black;
+        font-size: 20px;   font-family: 'TJ'; font-weight: normal;
+       }
+       p{
+        font-size: 20px;   font-family: 'TJ'; font-weight: normal;
+       }
+       @font-face{
+   font-family: 'TJ';
+   src : url('GABRWFFR.TTF');
+       font-weight: normal;
+   
+       }
+       </style>
+                   
+            <div class="jumbotron">
+                    <div class="container">
+                     
+                     <div align= center>
+               
+                  <div class="jumbotron">
+                    <div class="container">
+                        <BR> 
+               <h3>Custom Mario Bros</h3>
+               
+
+               
+            
+
+             </p>
+                 
+                   
+             <audio id="audiotag1" src="select.wav"1 preload="auto"></audio>
+             <audio id="audiotag2" src="MKDD Exit.wav" preload="auto"></audio>
+        
+
+      
+            </p>
+            <a href="javascript:play_dat_sound();"><h1>Play Game </h1> </a>
+ 
+
+             <p>&copy; 2019 by DJ STUDIO. </p>
+             <p>Fringe Leaf Symbol, Music &copy; 20th Century Fox. </p>
+             <p>Customized Physics &copy; DJ STUDIO. Inspired by Sonic the Hedgehog.</p>
+             <p>Game Images, Music, Sounds &copy; Nintendo, Lucasfilm, Home Box Office, CBS All Access, Square Enix, Brett Alcoft.</p>
+       <audio autoplay loop id="myaudio">
+                    <source src="Load Thomas (Kikansha Thomas, Kikansha Thomas 2).mp3" >
+                  </audio>
+                
+                <script>
+                    var audio = document.getElementById("myaudio");
+                    audio.volume = 1.0;
+
+                
+      
+                    function play_dat_sound() {
+                       var audio = document.getElementById("myaudio");
+                            audio.volume = 0.0;
+                      document.getElementById('audiotag1').play();
+                      setTimeout(function(){ window.location.replace("About.html");},  1000);
+                    }
+                    function play_no_sound() {
+                       var audio = document.getElementById("myaudio");
+                            audio.volume = 0.0;
+                      document.getElementById('audiotag2').play();
+                      setTimeout(function(){ window.location.replace("Home.html");}, 1000);
+                    }
+             
+                  </script>
+              
+           
+        </body>
+        </html>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
